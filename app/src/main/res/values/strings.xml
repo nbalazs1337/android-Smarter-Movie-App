@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">SmarterMovieApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="register_welcome_message">Create an account so you can use the full experience of the SMA application.</string>
+    <string name="username"><font face="sans-serif-light" size="12">Username</font></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="or_sign_up_with">or Sign up with</string>
+    <string name="i_already_have_an_account">I already have an account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password"><font face="sans-serif-light" size="12">Password</font></string>
+    <string name="email"><font face="sans-serif-light" size="12">Email</font></string>
+    <string name="confirm_password"><font face="sans-serif-light" size="12">Confirm Password</font></string>
+    <string name="poster">poster</string>
+    <string name="placeholder_movie_title">Movie Title</string>
+    <string name="rating_star">Rating Star</string>
+    <string name="placeholder_rating">4.5</string>
+    <string name="loading">loading</string>
+    <string name="view_all"><![CDATA[View all >]]></string>
+    <string name="notifications">notifications</string>
+    <string name="search_movie">Search movie ...</string>
+    <string name="login_welcome_text">Welcome Back!</string>
+    <string name="login_welcome_message">We\'re happy to see you. You can Login and continue searching for your favorite movies and cinemas.</string>
+    <string name="or_sign_in_with">or Sign in with</string>
+    <string name="i_don_t_have_an_account">I don\'t have an account</string>
+    <string name="client_id">684650662402-bi9gpgibbsiqaigjd4mgaocf44oe738a.apps.googleusercontent.com</string>
+    <string name="logo">logo</string>
+    <string name="story_line">Story line</string>
+    <string name="previous">Go to last screen</string>
+    <string name="mark_favorite">Mark or unmark this movie as favorite</string>
+    <string name="text_separator">|</string>
+    <string name="placeholder_duration">HhMMm</string>
+    <string name="placeholder_language">Lan</string>
+    <string name="lorem_3_lines">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</string>
+    <string name="check_availability">CHECK AVAILABILITY</string>
+    <string name="similar_movies">Similar Movies</string>
+    <string name="placeholder_genres">Genre, Genre</string>
+    <string name="placeholder_year">(2015)</string>
+    <string name="placeholder_subinfo">Lan | Genre, Genre | HhMMm</string>
+    <string name="watch_trailer">Watch Trailer</string>
+    <string name="loading_content">Loading…</string>
+    <string name="internet_for_similar_movies">Please check your internet connection to load similar movies.</string>
+    <string name="nearby">Nearby</string>
+    <string name="favorites">Favorites</string>
+    <string name="search_favorite">Search favorite movie ...</string>
+    <string name="schedule">Schedule</string>
+    <string name="placeholder_date">Monday 01.08.2022</string>
+    <string name="placeholder_cinema_title">Cinema Title</string>
+    <string name="placeholder_address">Address</string>
+    <string name="no_movie_found">No movie found</string>
+
+    <string-array name="themes">
+        <item>Imperial Theme</item>
+        <item>BlackWhite</item>
+        <item>RedPassion</item>
+    </string-array>
+</resources>

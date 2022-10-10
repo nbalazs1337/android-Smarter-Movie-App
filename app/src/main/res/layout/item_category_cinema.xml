@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_featured_cinema"
+        android:layout_width="364dp"
+        android:layout_height="158dp"
+        android:stateListAnimator="@animator/animator_scale_pressed_button"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_featured_cinema"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dark_blue"
+            android:foreground="@drawable/gradient_lower_transparent_black"
+            android:scaleType="centerCrop" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_featured_cinema_map"
+            android:layout_width="@dimen/size_icon_button"
+            android:layout_height="@dimen/size_icon_button"
+            android:layout_gravity="end"
+            android:layout_margin="15dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/shape_gradient_border"
+            android:drawableStart="@drawable/ic_map"
+            android:padding="7dp"
+            android:scaleType="fitCenter"
+            android:stateListAnimator="@animator/animator_scale_pressed_button" />
+
+        <TextView
+            android:id="@+id/txt_featured_cinema_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="35dp"
+            android:fontFamily="@font/proxima_nova_alt_bold"
+            android:text="Cinema City"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt_featured_cinema_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="15dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:fontFamily="@font/proxima_nova_alt_regular"
+            android:text="Alexandru Vaida Voievod 53B, Cluj-Napoca"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

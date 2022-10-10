@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/fragmentHomeScreen" />
+    <item
+        android:title="Favorites"
+        android:icon="@drawable/ic_favorite"
+        android:id="@+id/fragmentFavoritesScreen"/>
+    <item
+        android:title="Cinemas"
+        android:icon="@drawable/ic_cinemas"
+        android:id="@+id/fragmentCinemasScreen"/>
+
+    <item
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"
+        android:id="@+id/fragmentSettingsScreen"
+       />
+
+</menu>

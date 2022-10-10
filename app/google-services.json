@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "684650662402",
+    "project_id": "smartermovieapp-86bc3",
+    "storage_bucket": "smartermovieapp-86bc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684650662402:android:9e3da7254e3d787a97b51b",
+        "android_client_info": {
+          "package_name": "com.example.smartermovieapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684650662402-329jeekcm0hsvae389t8msmp2eed20ro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBe0AgArAw9UfYO2t3AOcgGQK0DKK-gn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684650662402-329jeekcm0hsvae389t8msmp2eed20ro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

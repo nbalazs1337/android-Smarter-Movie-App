@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RatingStar" parent="Theme.SmarterMovieApp">
+        <item name="android:layout_width">@dimen/size_rating_star</item>
+        <item name="android:layout_height">@dimen/size_rating_star</item>
+        <item name="android:src">@drawable/ic_empty_star</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,214 @@
+{
+  "cinemas": [
+    {
+      "id": 1,
+      "name": "Cinema City Iulius",
+      "address": "Strada Alexandru Vaida Voevod 55, Cluj-Napoca 400394",
+      "lat": 46.771906,
+      "lng": 23.627258,
+      "photo_url": "https://lh5.googleusercontent.com/p/AF1QipO0_o4IsZVjblglqwyCdDup9yvyspD4xM01JteF=w408-h306-k-no",
+      "running": [
+        {
+          "movie_id": 616037,
+          "hours" : [ "10:59","14:00","20:59"]
+        },
+        {
+          "movie_id": 810693,
+          "hours" : [ "10:00","14:10","21:59"]
+        },
+        {
+          "movie_id": 438148,
+          "hours" : [ "11:00","14:00","20:00"]
+        },
+        {
+          "movie_id": 361743,
+          "hours" : [ "10:00","13:00","22:00"]
+        },
+        {
+          "movie_id": 756999,
+          "hours" : [ "11:00","14:30","20:00"]
+        },
+        {
+          "movie_id": 718789,
+          "hours" : [ "12:00","13:59","23:59"]
+        },
+        {
+          "movie_id": 453395,
+          "hours" : [ "10:03","14:09","21:40"]
+        },
+        {
+          "movie_id": 725201,
+          "hours" : [ "9:00","12:00","20:00"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cinema Victoria",
+      "address": "Bulevardul Eroilor 51, Cluj-Napoca 400394",
+      "lat": 46.7707,
+      "lng": 23.5961,
+      "photo_url": "https://www.stiridecluj.ro/files/images/169/c2347c7e84fee6392149cb29d67fcb12.jpg",
+      "running": [
+        {
+          "movie_id": 810693,
+          "hours" : [ "10:59","14:00","20:59"]
+        },
+        {
+          "movie_id": 961484,
+          "hours" : [ "10:00","13:00","22:00"]
+        },
+        {
+          "movie_id": 438148,
+          "hours" : [ "10:00","14:10","21:59"]
+        },
+        {
+          "movie_id": 361743,
+          "hours" : [ "11:00","14:30","20:00"]
+        },
+        {
+          "movie_id": 756999,
+          "hours" : [ "11:00","14:00","20:00"]
+        },
+        {
+          "movie_id": 924482,
+          "hours" : [ "10:03","14:09","21:40"]
+        },
+        {
+          "movie_id": 453395,
+          "hours" : [ "10:03","14:09","21:40"]
+        },
+        {
+          "movie_id": 675353,
+          "hours" : [ "12:00","13:59","23:59"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cinema Florin Piersic",
+      "address": "Piața Mihai Viteazu 11-13, Cluj-Napoca 400151",
+      "lat": 46.774622,
+      "lng": 23.590171,
+      "photo_url": "https://cdn.cluj.com/ghidlocalcom/sites/8/cinema-florin-piersic.jpg",
+      "running": [
+        {
+          "movie_id": 810693,
+          "hours" : [ "10:59","14:00","20:59"]
+        },
+        {
+          "movie_id": 894169,
+          "hours" : [ "11:00","14:30","20:00"]
+        },
+        {
+          "movie_id": 438148,
+          "hours" : [ "10:00","13:00","22:00"]
+        },
+        {
+          "movie_id": 888195,
+          "hours" : [ "10:00","14:10","21:59"]
+        },
+        {
+          "movie_id": 756999,
+          "hours" : [ "10:03","14:09","21:40"]
+        },
+        {
+          "movie_id": 697799,
+          "hours" : [ "10:03","14:09","21:40"]
+        },
+        {
+          "movie_id": 453395,
+          "hours" : [ "12:00","13:59","23:59"]
+        },
+        {
+          "movie_id": 725201,
+          "hours" : [ "11:00","14:00","20:00"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Cinema Marasti",
+      "address": "Strada Aurel Vlaicu 3, Cluj-Napoca 400581",
+      "lat": 46.7792409,
+      "lng": 23.6170717,
+      "photo_url": "https://dk7z68w6yvbyk.cloudfront.net/imagini_obiecte/6952/1276_PB160003-1.JPG",
+      "running": [
+        {
+          "movie_id": 810693,
+          "hours" : [ "10:59","14:00","20:59"]
+        },
+        {
+          "movie_id": 507086,
+          "hours" : [ "10:03","14:09","21:40"]
+        },
+        {
+          "movie_id": 752623,
+          "hours" : [ "11:00","14:00","20:00"]
+        },
+        {
+          "movie_id": 361743,
+          "hours" : [ "10:00","14:10","21:59"]
+        },
+        {
+          "movie_id": 560057,
+          "hours" : [ "10:03","14:09","21:40"]
+        },
+        {
+          "movie_id": 718789,
+          "hours" : [ "12:00","13:59","23:59"]
+        },
+        {
+          "movie_id": 453395,
+          "hours" : [ "11:00","14:30","20:00"]
+        },
+        {
+          "movie_id": 975714,
+          "hours" : [ "10:00","13:00","22:00"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Cinema City Vivo",
+      "address": "Strada Avram Iancu 492-500, Florești 407280",
+      "lat": 46.7492957,
+      "lng": 23.5221723,
+      "photo_url": "https://cdn.immofinanz.com/uploads/production/5e21a7dddee6e56db91bce1c/_mg_5707.jpg",
+      "running": [
+        {
+          "movie_id": 810693,
+          "hours" : [ "10:59","14:00","20:59"]
+        },
+        {
+          "movie_id": 507086,
+          "hours" : [ "10:00","14:10","21:59"]
+        },
+        {
+          "movie_id": 818397,
+          "hours" : [ "10:00","14:10","21:59"]
+        },
+        {
+          "movie_id": 361743,
+          "hours" : [ "10:03","14:09","21:40"]
+        },
+        {
+          "movie_id": 639933,
+          "hours" : [ "10:00","13:00","22:00"]
+        },
+        {
+          "movie_id": 718789,
+          "hours" : [ "12:00","13:59","23:59"]
+        },
+        {
+          "movie_id": 453395,
+          "hours" : [ "11:00","14:00","20:00"]
+        },
+        {
+          "movie_id": 725201,
+          "hours" : [ "11:00","14:30","20:00"]
+        }
+      ]
+    }
+  ]
+}

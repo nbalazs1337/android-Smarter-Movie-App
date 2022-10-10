@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/fragmentHomeScreen">
+
+    <fragment
+        android:id="@+id/fragmentHomeScreen"
+        android:name="com.example.smartermovieapp.presentation.home.FragmentHomeScreen"
+        android:label="fragment_home_screen"
+        tools:layout="@layout/fragment_home_screen">
+        <action
+            android:id="@+id/action_fragmentHomeScreen_to_fragmentCinemasScreen"
+            app:destination="@id/fragmentCinemasScreen" />
+        <action
+            android:id="@+id/action_fragmentHomeScreen_to_fragmentFavoritesScreen"
+            app:destination="@id/fragmentFavoritesScreen" />
+        <action
+            android:id="@+id/action_fragmentHomeScreen_to_fragmentSettingsScreen"
+            app:destination="@id/fragmentSettingsScreen" />
+        <action
+            android:id="@+id/action_fragmentHomeScreen_to_fragmentNotificationScreen"
+            app:destination="@id/fragmentNotificationScreen" />
+        <action
+            android:id="@+id/action_fragmentHomeScreen_to_fragmentCategoryScreen"
+            app:destination="@id/fragmentCategoryScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentFavoritesScreen"
+        android:name="com.example.smartermovieapp.presentation.home.FragmentFavoritesScreen"
+        android:label="fragment_favorites_screen"
+        tools:layout="@layout/fragment_favorites_screen" />
+    <fragment
+        android:id="@+id/fragmentCinemasScreen"
+        android:name="com.example.smartermovieapp.presentation.home.FragmentCinemasScreen"
+        android:label="fragment_cinemas_screen"
+        tools:layout="@layout/fragment_cinemas_screen">
+        <action
+            android:id="@+id/action_fragmentCinemaScreen_to_fragmentCategoryScreen"
+            app:destination="@+id/fragmentCategoryScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSettingsScreen"
+        android:name="com.example.smartermovieapp.presentation.home.FragmentSettingsScreen"
+        android:label="fragment_settings_screen"
+        tools:layout="@layout/fragment_settings_screen" />
+    <fragment
+        android:id="@+id/fragmentNotificationScreen"
+        android:name="com.example.smartermovieapp.presentation.home.FragmentNotificationScreen"
+        android:label="fragment_notification_screen2"
+        tools:layout="@layout/fragment_notification_screen" />
+    <fragment
+        android:id="@+id/fragmentCategoryScreen"
+        android:name="com.example.smartermovieapp.presentation.home.FragmentCategoryScreen"
+        android:label="fragment_category_screen"
+        tools:layout="@layout/fragment_category_screen" />
+</navigation>
